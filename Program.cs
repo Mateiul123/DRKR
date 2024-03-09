@@ -1,3 +1,7 @@
+using DRKR.Models;
+using FluentAssertions.Common;
+using Microsoft.EntityFrameworkCore;
+
 namespace DRKR
 {
     public class Program
@@ -8,6 +12,13 @@ namespace DRKR
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            //DbContext
+
+            builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
