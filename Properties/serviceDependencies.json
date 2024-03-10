@@ -7,6 +7,9 @@
       "type": "mssql",
       "connectionId": "ConnectionStrings:DevConnection",
       "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights"
     }
   }
 }

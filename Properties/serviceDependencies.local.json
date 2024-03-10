@@ -9,6 +9,9 @@
       "type": "mssql.local",
       "connectionId": "ConnectionStrings:DevConnection",
       "dynamicId": null
+    },
+    "appInsights1": {
+      "type": "appInsights.sdk"
     }
   }
 }

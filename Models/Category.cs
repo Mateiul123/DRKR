@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DRKR.Models
+﻿namespace DRKR.Models
 {
     public class Category
     {

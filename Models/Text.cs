@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DRKR.Models
+﻿namespace DRKR.Models
 {
-    public class Text: Media
+    public class Text : Media
     {
         public string Content { get; set; }
 

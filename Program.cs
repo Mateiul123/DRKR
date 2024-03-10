@@ -1,5 +1,4 @@
-using DRKR.Models;
-using FluentAssertions.Common;
+using DRKR.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace DRKR

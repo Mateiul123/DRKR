@@ -1,11 +1,8 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-namespace DRKR.Models
+﻿namespace DRKR.Models
 {
     public abstract class Media
     {
-        public int Id { get; set; }
+        public int MediaId { get; set; }
         public string Title { get; set; }
         public DateTime UploadDate { get; set; } = DateTime.UtcNow;
         public bool IsApproved { get; set; }

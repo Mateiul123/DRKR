@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DRKR.Models
+﻿namespace DRKR.Models
 {
-    
+
     public class Audio : Media
     {
         public string AudioUrl { get; set; }
